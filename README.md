@@ -1,25 +1,44 @@
-# covid-heroes
+## Technologies
+COVID-Heroes is built with:
+* Vue.js
+* Buefy
+* Node.js & Express.js
+* Sequelize
+* MySQL
 
-## Project setup
+## Project Setup
 ```
 npm install
 ```
+### Vue Front-End
 
-### Compiles and hot-reloads for development
+#### Go to the client directory
+```
+cd client
+```
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
+### Express Back-end
 
+#### Go to the server directory
+```
+cd server
+```
+```
+npm run startExpress
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
